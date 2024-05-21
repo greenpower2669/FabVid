@@ -449,7 +449,7 @@ text-align:center;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: url("FabvidResources\PPvid.gif"), auto;
+    cursor: url("FabvidResources\\PPvid.gif"), auto;
   }
   .range-container:hover .range-infoc {
     display: block;
@@ -592,11 +592,11 @@ position: relative;
 
 }
 #pbtVD {
-  cursor: url("FabvidResources\e-resize.gif"), auto;
+  cursor: url("FabvidResources\\e-resize.gif"), auto;
   opacity: 0.4;
 }
 #pbtVG {
-  cursor: url("FabvidResources\w-resize.gif"), auto;
+  cursor: url("FabvidResources\\w-resize.gif"), auto;
   opacity: 0.4;
 }
 #pbtVD:hover {
@@ -611,11 +611,11 @@ position: relative;
   cursor: ew-resize; 
 }
 #btVD {
-  cursor: url("FabvidResources\e-resize.gif"), auto;
+  cursor: url("FabvidResources\\e-resize.gif"), auto;
   opacity: 0.4;
 }
 #btVG {
-  cursor: url("FabvidResources\w-resize.gif"), auto;
+  cursor: url("FabvidResources\\w-resize.gif"), auto;
   opacity: 0.4;
 }
 #btVD:hover {
@@ -677,7 +677,7 @@ top: -50px;
 }
 #canVisu{
  
-  cursor: url("FabvidResources\PPvid.gif"), auto;
+  cursor: url(FabvidResources\\PPvid.gif"), auto;
   
 }
 #hautDP{
@@ -690,7 +690,7 @@ left:-1px;
   color: rgb(20, 46, 240);
   text-align: center;
   background-color: #8786a2;
-  cursor: url("FabvidResources\Fabvid.gif"), auto;
+  cursor: url("FabvidResources\\Fabvid.gif"), auto;
   font-size: 30px;
   text-decoration: none;
 }
@@ -699,7 +699,7 @@ left:-1px;
 }
 .hdpS,
 .hdpS:link {
-  cursor: url("FabvidResources\Fabvid.gif"), auto;
+  cursor: url("FabvidResources\\Fabvid.gif"), auto;
     color: white !important; /* Forcer la couleur à être blanche */
     text-decoration: none;
 }
@@ -783,7 +783,7 @@ color:#8786a2
 </br></br></br>
 <div class="range-container">
 <button id="enregistrer">Enregistrer l'image</button>
-<span class="range-info" id="FabvidResources\samplepng">
+<span class="range-info" id="samplepng">
 sample.png  
 </span>
 </div>
@@ -1277,7 +1277,7 @@ function checkFileExistsWithMP4Extension(fileNameWithoutExtension, files) {
                   } 
                   else 
                   {
-                    video.poster="rouage.webp";
+                    video.poster="FabvidResources\\rouage.webp";
                     video.onloadedmetadata = function() {
                       video.currentTime = video.duration * curTpourcent;
                     };
